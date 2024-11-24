@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/appExplanationFragment">
+
+    <fragment
+        android:id="@+id/appExplanationFragment"
+        android:name="com.b07group15.plantze.AppExplanationFragment"
+        android:label="AppExplanationFragment" >
+        <action
+            android:id="@+id/action_appExplanationFragment_to_locationInputFragment"
+            app:destination="@id/locationInputFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationInputFragment"
+        android:name="com.b07group15.plantze.LocationInputFragment"
+        android:label="LocationInputFragment" >
+        <action
+            android:id="@+id/action_locationInputFragment_to_transportationPrompt1Fragment"
+            app:destination="@id/transportationPrompt1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportationPrompt1Fragment"
+        android:name="com.b07group15.plantze.TransportationPrompt1Fragment"
+        android:label="TransportationPrompt1Fragment" >
+        <action
+            android:id="@+id/action_transportationPrompt1Fragment_to_transportationPrompt2Fragment"
+            app:destination="@id/transportationPrompt2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportationPrompt2Fragment"
+        android:name="com.b07group15.plantze.TransportationPrompt2Fragment"
+        android:label="TransportationPrompt2Fragment" >
+        <action
+            android:id="@+id/action_transportationPrompt2Fragment_to_transportationPrompt3Fragment"
+            app:destination="@id/transportationPrompt3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportationPrompt3Fragment"
+        android:name="com.b07group15.plantze.TransportationPrompt3Fragment"
+        android:label="TransportationPrompt3Fragment" >
+        <action
+            android:id="@+id/action_transportationPrompt3Fragment_to_transportationPrompt4Fragment"
+            app:destination="@id/transportationPrompt4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportationPrompt4Fragment"
+        android:name="com.b07group15.plantze.TransportationPrompt4Fragment"
+        android:label="TransportationPrompt4Fragment" >
+        <action
+            android:id="@+id/action_transportationPrompt4Fragment_to_transportationPrompt5Fragment"
+            app:destination="@id/transportationPrompt5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportationPrompt5Fragment"
+        android:name="com.b07group15.plantze.TransportationPrompt5Fragment"
+        android:label="TransportationPrompt5Fragment" >
+        <action
+            android:id="@+id/action_transportationPrompt5Fragment_to_transportationPrompt6Fragment"
+            app:destination="@id/transportationPrompt6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportationPrompt6Fragment"
+        android:name="com.b07group15.plantze.TransportationPrompt6Fragment"
+        android:label="TransportationPrompt6Fragment" >
+        <action
+            android:id="@+id/action_transportationPrompt6Fragment_to_transportationPrompt7Fragment"
+            app:destination="@id/transportationPrompt7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transportationPrompt7Fragment"
+        android:name="com.b07group15.plantze.TransportationPrompt7Fragment"
+        android:label="TransportationPrompt7Fragment" >
+        <action
+            android:id="@+id/action_transportationPrompt7Fragment_to_foodPrompt1Fragment"
+            app:destination="@id/foodPrompt1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodPrompt1Fragment"
+        android:name="com.b07group15.plantze.FoodPrompt1Fragment"
+        android:label="FoodPrompt1Fragment" >
+        <action
+            android:id="@+id/action_foodPrompt1Fragment_to_foodPrompt2Fragment"
+            app:destination="@id/foodPrompt2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodPrompt2Fragment"
+        android:name="com.b07group15.plantze.FoodPrompt2Fragment"
+        android:label="FoodPrompt2Fragment" >
+        <action
+            android:id="@+id/action_foodPrompt2Fragment_to_foodPrompt3Fragment"
+            app:destination="@id/foodPrompt3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodPrompt3Fragment"
+        android:name="com.b07group15.plantze.FoodPrompt3Fragment"
+        android:label="FoodPrompt3Fragment" >
+        <action
+            android:id="@+id/action_foodPrompt3Fragment_to_foodPrompt4Fragment"
+            app:destination="@id/foodPrompt4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodPrompt4Fragment"
+        android:name="com.b07group15.plantze.FoodPrompt4Fragment"
+        android:label="FoodPrompt4Fragment" >
+        <action
+            android:id="@+id/action_foodPrompt4Fragment_to_foodPrompt5Fragment"
+            app:destination="@id/foodPrompt5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodPrompt5Fragment"
+        android:name="com.b07group15.plantze.FoodPrompt5Fragment"
+        android:label="FoodPrompt5Fragment" >
+        <action
+            android:id="@+id/action_foodPrompt5Fragment_to_foodPrompt6Fragment"
+            app:destination="@id/foodPrompt6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodPrompt6Fragment"
+        android:name="com.b07group15.plantze.FoodPrompt6Fragment"
+        android:label="FoodPrompt6Fragment" >
+        <action
+            android:id="@+id/action_foodPrompt6Fragment_to_housingPrompt1Fragment"
+            app:destination="@id/housingPrompt1Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/housingPrompt1Fragment"
+        android:name="com.b07group15.plantze.HousingPrompt1Fragment"
+        android:label="HousingPrompt1Fragment" >
+        <action
+            android:id="@+id/action_housingPrompt1Fragment_to_housingPrompt2Fragment"
+            app:destination="@id/foodPrompt2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/housingPrompt2Fragment"
+        android:name="com.b07group15.plantze.HousingPrompt2Fragment"
+        android:label="HousingPrompt2Fragment" >
+        <action
+            android:id="@+id/action_housingPrompt2Fragment_to_housingPrompt3Fragment"
+            app:destination="@id/housingPrompt3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/housingPrompt3Fragment"
+        android:name="com.b07group15.plantze.HousingPrompt3Fragment"
+        android:label="HousingPrompt3Fragment" >
+        <action
+            android:id="@+id/action_housingPrompt3Fragment_to_housingPrompt4Fragment"
+            app:destination="@id/housingPrompt4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/housingPrompt4Fragment"
+        android:name="com.b07group15.plantze.HousingPrompt4Fragment"
+        android:label="HousingPrompt4Fragment" >
+        <action
+            android:id="@+id/action_housingPrompt4Fragment_to_housingPrompt5Fragment"
+            app:destination="@id/housingPrompt5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/housingPrompt5Fragment"
+        android:name="com.b07group15.plantze.HousingPrompt5Fragment"
+        android:label="HousingPrompt5Fragment" >
+        <action
+            android:id="@+id/action_housingPrompt5Fragment_to_housingPrompt6Fragment"
+            app:destination="@id/housingPrompt6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/housingPrompt6Fragment"
+        android:name="com.b07group15.plantze.HousingPrompt6Fragment"
+        android:label="HousingPrompt6Fragment" >
+        <action
+            android:id="@+id/action_housingPrompt6Fragment_to_housingPrompt7Fragment"
+            app:destination="@id/housingPrompt7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/housingPrompt7Fragment"
+        android:name="com.b07group15.plantze.HousingPrompt7Fragment"
+        android:label="HousingPrompt7Fragment" >
+        <action
+            android:id="@+id/action_housingPrompt7Fragment_to_consumptionPrompt1Fragment"
+            app:destination="@id/consumptionPrompt1Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/consumptionPrompt1Fragment"
+        android:name="com.b07group15.plantze.ConsumptionPrompt1Fragment"
+        android:label="ConsumptionPrompt1Fragment" >
+        <action
+            android:id="@+id/action_consumptionPrompt1Fragment_to_consumptionPrompt2Fragment"
+            app:destination="@id/consumptionPrompt2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/consumptionPrompt2Fragment"
+        android:name="com.b07group15.plantze.ConsumptionPrompt2Fragment"
+        android:label="ConsumptionPrompt2Fragment" >
+        <action
+            android:id="@+id/action_consumptionPrompt2Fragment_to_consumptionPrompt3Fragment"
+            app:destination="@id/consumptionPrompt3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/consumptionPrompt3Fragment"
+        android:name="com.b07group15.plantze.ConsumptionPrompt3Fragment"
+        android:label="ConsumptionPrompt3Fragment" >
+        <action
+            android:id="@+id/action_consumptionPrompt3Fragment_to_consumptionPrompt4Fragment"
+            app:destination="@id/consumptionPrompt4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/consumptionPrompt4Fragment"
+        android:name="com.b07group15.plantze.ConsumptionPrompt4Fragment"
+        android:label="ConsumptionPrompt4Fragment" />
+</navigation>

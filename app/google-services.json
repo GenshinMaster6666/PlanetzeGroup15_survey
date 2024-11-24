@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156134820078",
+    "project_id": "b07-group-15",
+    "storage_bucket": "b07-group-15.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156134820078:android:7b433c3308d2bb3f7a4bff",
+        "android_client_info": {
+          "package_name": "com.b07group15.plantze"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChq0dR-XwdVQE7aX8PzTkGQeb6Ypj1w34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
